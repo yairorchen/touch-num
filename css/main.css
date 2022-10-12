@@ -1,13 +1,15 @@
-body{
+body {
     margin-top: 100px;
-    background:linear-gradient(to left,rgb(73, 43, 194),rgb(101, 87, 170),rgb(60, 163, 188)) 
+    background: linear-gradient(to left, rgb(73, 43, 194), rgb(101, 87, 170), rgb(60, 163, 188))
 }
-h1{
+
+h1 {
     padding: 5px;
-    margin-top: 50px;
+    margin-top: 45px;
     margin-left: 120px;
 }
-.board td{
+
+.board td {
     background-color: rgb(178, 17, 17);
     width: 70px;
     height: 70px;
@@ -15,17 +17,17 @@ h1{
     transition: 0.5ms;
     border-radius: 25px;
     color: white
-   
 }
-.board td:hover{
+
+.board td:hover {
     cursor: pointer;
     background-color: rgb(233, 76, 19);
 
 }
 
-.victory{
-    background:linear-gradient(to left,rgb(12, 173, 213),rgb(5, 234, 242));
-    display:none;
+.victory {
+    background: linear-gradient(to left, rgb(12, 173, 213), rgb(5, 234, 242));
+    display: none;
     width: 280px;
     height: 280px;
     text-align: center;
@@ -33,25 +35,28 @@ h1{
     border-radius: 30px;
     margin-top: 20px;
 
-    
+
 }
-.container{
-height: 60px;
-width: 150px;
-text-align: center;
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-font-size:40px;
-border-radius: 20px;
+
+.container {
+    height: 60px;
+    width: 150px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    border-radius: 20px;
 }
-.victory button{
+
+.victory button {
     border-radius: 8px;
     background-color: rgb(15, 70, 153);
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
-.container button{
-    margin-top:100px;
+
+.container button {
+    margin-top: 100px;
     height: 60px;
     width: 120px;
     font-size: large;
@@ -61,7 +66,8 @@ border-radius: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
-.victory button:hover{
+
+.victory button:hover {
     cursor: pointer;
     border-radius: 8px;
     background-color: rgb(15, 135, 240);
@@ -70,13 +76,13 @@ border-radius: 20px;
 
 }
 
-.timer{
+.timer {
     background-color: aqua;
     height: 60px;
     width: 150px;
     margin-top: 120px;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size:40px;
+    font-size: 40px;
     border-radius: 20px;
-    }
+}
