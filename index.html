@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body >
+  <center>
+  <table border="0">
+   <tbody class="board"></tbody>
+   <tbody class="board1"></tbody>
+
+</table>
+<div class="victory"><h2>VICTORY!!!</h2> <h3>choose level</h3>
+   <button onclick="levOfDiff = 1" onclick="renderBoard()">level 1</button>
+   <button onclick="levOfDiff = 2" onclick="renderBoard()">level 2</button>
+   <button onclick="levOfDiff = 3" onclick="renderBoard()">level 3</button>
+   <h3>start again!</h3>
+   <button id="btn-play-again" onclick="startBtn()">Play again!</button>
+  </div>
+  <div class="container">
+    <button id="btn-play" onclick="startBtn()">Play!</button>
+  </div> 
+  <div class="timer">
+    <h4>00:000</h4>
+  </div> 
+</center>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
